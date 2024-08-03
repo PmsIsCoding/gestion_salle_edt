@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 13vh;
+    border-bottom: 1px solid #122A44;
+}
+.logo{
+    width: 70px;
+}
+.logo img{
+    width: 120px;
+}
+header ul{
+    width: 45vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header li{
+    cursor: pointer;
+}
+header button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #122A44;
+    color: #E2F2F8;
+    border-radius: 10px;
+    cursor: pointer;
+}

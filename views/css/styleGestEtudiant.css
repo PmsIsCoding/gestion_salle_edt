@@ -1,0 +1,23 @@
+main ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+main li{
+    width: 50%;
+    height: 50px;
+}
+li button{
+    width: 100%;
+    height: 100%;
+    border: #122A44 1px solid;
+    cursor: pointer;
+}
+
+.etudiants,.demandes{
+    position: absolute;
+}
+.demandes{
+    display: none;
+}
+

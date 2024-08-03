@@ -1,0 +1,33 @@
+table{
+    width: 62vw;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+.edt{
+    padding: 50px;
+}
+th{
+    width: 80px;
+    height: 50px;
+    border: #122A44 solid 1px;
+}
+body{
+    overflow: hidden;
+}
+td{
+    border: #122A44 solid 1px;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    font-size: 12px;
+}
+.cours{
+    color: red;
+    font-weight: bold;
+}
+.prof{
+    font-weight: bold;
+}
+.salle{
+    color: red;
+}

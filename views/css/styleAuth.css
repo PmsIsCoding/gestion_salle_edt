@@ -1,0 +1,105 @@
+header{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 0px 50px;
+    height: 13vh;
+    border-bottom: 1px solid #122A44;
+}
+.logo{
+    width: 70px;
+}
+.logo img{
+    width: 120px;
+}
+.image{
+    height: 87vh;
+    width: 50vw;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.form{
+    width: 50vw;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form form{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.329);
+    padding: 30px;
+    user-select: all;
+    z-index: 1;
+}
+.form form::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: -5px -5px 15px rgb(255, 255, 255);
+    background: none;
+    z-index: -1;
+}
+.form h3{
+    text-align: center;
+    background: none;
+    margin-bottom: 30px;
+}
+form label{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 40px;
+}
+form button{
+    display: flex;
+    margin: auto;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #122A44;
+    color: #E2F2F8;
+    cursor: pointer;
+}
+form input{
+    border: none;
+    border-bottom: #122A44 2px solid;
+    outline: none;
+}
+h4{
+    text-align: center;
+    margin: 20px;
+    font-size: 12px;
+}
+.btn-insc{
+    width: 150px;
+    background: none;
+    color: #122A44;
+    border: 1px #122A44 solid;
+}
+form a{
+    text-decoration: none;
+}
+.text-alert{
+    color: red;
+    text-align: center;
+}

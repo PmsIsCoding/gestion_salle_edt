@@ -1,0 +1,15 @@
+$(function(){
+    $(".addModuleBtn").click(function(){
+        $("#idClasse").attr("value",$(this).attr("data-idClasse"))
+        $(".vFait").addClass("hidden")
+    })
+    $(".modifModule").click(function(){
+        $(".vFait").removeClass("hidden")
+        $(".addModule").attr("action","../modeles/modifModules.php")
+        $("#id").attr("value",$(this).attr("data-id"))
+        $("#nomModule").attr("value",$(this).attr("data-nom"))
+        $("#volumeTotal").attr("value",$(this).attr("data-volume"))
+        $("#"+$(this).attr("data-idProf")).attr("selected",true)
+        $("#volumeFait").attr("value",$(this).attr("data-vFait"))
+    })
+})

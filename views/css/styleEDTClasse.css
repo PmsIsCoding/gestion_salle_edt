@@ -1,0 +1,17 @@
+td{
+    height: 120px;
+}
+.seance{
+    cursor: pointer;
+}
+.seance .nom{
+    font-family: "poppins-bold" !important;
+}
+.seance .prof{
+    color: black;
+    font-family: "poppins-bold";
+}
+form{
+    /* display: flex; */
+    justify-content: center;
+}

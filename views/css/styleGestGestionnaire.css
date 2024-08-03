@@ -1,0 +1,55 @@
+.addGestionnaire{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.addGest{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 70%;
+    padding: 30px;
+    display: none;
+}
+.addGest h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.addGest label{
+    width: 150px;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.addGest input{
+    border: none;
+    border-bottom: 1px solid #122A44;
+    outline: none;
+}
+.addGest button{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border:  1px solid #122A44;
+    cursor: pointer;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+}
+.btns button{
+    border: none;
+}
+.ann{
+    background-color: rgb(223, 65, 65);
+    border: none !important;
+}
